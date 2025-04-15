@@ -1,0 +1,8 @@
+init_config:
+
+instances:
+  - name: macess_metrics
+    min_collection_interval: 60
+    tags:
+      - team:gbd
+      - env:prod
