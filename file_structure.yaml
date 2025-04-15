@@ -1,0 +1,9 @@
+datadog-macess-custom-check/
+├── checks/
+│   ├── __init__.py
+│   ├── macess_check.py        # AgentCheck implementation
+│   └── macess_utils.py        # External business logic
+├── conf/
+│   └── macess_check.yaml      # Agent configuration example
+├── README.md
+├── LICENSE
